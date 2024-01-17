@@ -89,7 +89,7 @@ function Home() {
   return (
     <>
       <div style={boxShadowStyle} className="d-flex flex-column align-items-center mt-5 rounded border py-4 w-75 mx-auto p-3 ">
-        <h1>Add Your Document</h1>
+        <h1 className="text-center ">Add Your Document</h1>
         <form
           onSubmit={handleSave}
           className="d-flex mt-3 gap-3  flex-wrap  w-100 justify-content-center    "
